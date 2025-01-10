@@ -1,0 +1,15 @@
+.off.active{
+    display: block;
+}
+
+.off{
+    display: none;
+}
+
+.on.active{
+    display: block;
+}
+
+.on{
+    display: none;
+}
