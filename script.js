@@ -1,16 +1,11 @@
-const switchOff = document.querySelector(".off");
-const switchOn = document.querySelector(".on");
+const button = document.querySelector(".button");
+const img = document.querySelector(".light");
 
-console.log(switchOff, switchOn);
+console.log(button, img);
 
-switchOff.addEventListener("click",
+button.addEventListener("click",
     function () {
-        switchOn.classList.add("active");
+        img.src = "./img/yellow_lamp.png";
+        
     }
-)
-
-switchOn.addEventListener("click",
-    function () {
-        switchOff.classList.add("active");
-    }
-)
+);
