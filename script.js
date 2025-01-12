@@ -6,6 +6,6 @@ console.log(button, img);
 button.addEventListener("click",
     function () {
         img.src = "./img/yellow_lamp.png";
-        
+
     }
 );
